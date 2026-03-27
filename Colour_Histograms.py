@@ -40,5 +40,6 @@ while(ret):
         cv2.imwrite('Frame_%04d.png'%index,frame)
         cv2.imwrite('Hist_UV_%04d.png'%index,hist_display)
 
+
 cap.release()
 cv2.destroyAllWindows()
